@@ -7,7 +7,6 @@ phrase:
         params:
           file_format: xml
           locale_id: en
-          update_translations: true
       - file: ./res/values-de/strings.xml
         params:
           file_format: xml
