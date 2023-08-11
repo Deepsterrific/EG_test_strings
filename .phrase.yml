@@ -3,20 +3,48 @@ phrase:
 
   push:
     sources:
-      - file: ./en-US.json
+      - file: ./res/values/strings.xml
         params:
-          file_format: simple_json
-          locale_id: en-US
+          file_format: xml
+          locale_id: en
           update_translations: true
-          autotranslate: true
+
+      - file: ./res/values-de/strings.xml
+        params:
+          file_format: xml
+          locale_id: de
+          update_translations: true
+
+      - file: ./res/values-es/strings.xml
+        params:
+          file_format: xml
+          locale_id: es
+          update_translations: true 
+
+      - file: ./res/values-fr/strings.xml
+        params:
+          file_format: xml
+          locale_id: fr
+          update_translations: true
 
   pull:
     targets:
-      - file: ./de-DE.json
+      - file: ./res/values/strings.xml
         params:
-          file_format: simple_json
-          locale_id: de-DE
-      - file: ./en-US.json
+          file_format: xml
+          locale_id: en
+
+      - file: ./res/values-de/strings.xml
         params:
-          file_format: simple_json
-          locale_id: en-US
+          file_format: xml
+          locale_id: de
+
+      - file: ./res/values-es/strings.xml
+          params:
+            file_format: xml
+            locale_id: es
+
+      - file: ./res/values-fr/strings.xml
+        params:
+          file_format: xml
+          locale_id: fr
