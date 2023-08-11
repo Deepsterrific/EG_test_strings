@@ -13,19 +13,16 @@ phrase:
         params:
           file_format: xml
           locale_id: de
-          update_translations: true
 
       - file: ./res/values-es/strings.xml
         params:
           file_format: xml
           locale_id: es
-          update_translations: true 
 
       - file: ./res/values-fr/strings.xml
         params:
           file_format: xml
           locale_id: fr
-          update_translations: true
 
   pull:
     targets:
