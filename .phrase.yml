@@ -8,17 +8,14 @@ phrase:
           file_format: xml
           locale_id: en
           update_translations: true
-
       - file: ./res/values-de/strings.xml
         params:
           file_format: xml
           locale_id: de
-
       - file: ./res/values-es/strings.xml
         params:
           file_format: xml
           locale_id: es
-
       - file: ./res/values-fr/strings.xml
         params:
           file_format: xml
@@ -30,17 +27,14 @@ phrase:
         params:
           file_format: xml
           locale_id: en
-
       - file: ./res/values-de/strings.xml
         params:
           file_format: xml
           locale_id: de
-
       - file: ./res/values-es/strings.xml
           params:
             file_format: xml
             locale_id: es
-
       - file: ./res/values-fr/strings.xml
         params:
           file_format: xml
