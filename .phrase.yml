@@ -1,0 +1,22 @@
+phrase:
+  project_id: 
+
+  push:
+    sources:
+      - file: ./en-US.json
+        params:
+          file_format: simple_json
+          locale_id: en-US
+          update_translations: true
+          autotranslate: true
+
+  pull:
+    targets:
+      - file: ./de-DE.json
+        params:
+          file_format: simple_json
+          locale_id: de-DE
+      - file: ./en-US.json
+        params:
+          file_format: simple_json
+          locale_id: en-US
