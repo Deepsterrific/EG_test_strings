@@ -32,7 +32,7 @@ phrase:
           file_format: xml
           locale_id: de
       - file: ./res/values-es/strings.xml
-          params:
+        params:
             file_format: xml
             locale_id: es
       - file: ./res/values-fr/strings.xml
