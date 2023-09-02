@@ -1,40 +1,8 @@
 phrase:
-  project_id: 68a648b81d5ec9e19d0820b779e3707a
-
+  project_id: 
+  
   push:
     sources:
-      - file: ./res/values/strings.xml
-        params:
-          file_format: xml
-          locale_id: en
-      - file: ./res/values-de/strings.xml
-        params:
-          file_format: xml
-          locale_id: de
-      - file: ./res/values-es/strings.xml
-        params:
-          file_format: xml
-          locale_id: es
-      - file: ./res/values-fr/strings.xml
-        params:
-          file_format: xml
-          locale_id: fr
-
+      
   pull:
     targets:
-      - file: ./res/values/strings.xml
-        params:
-          file_format: xml
-          locale_id: en
-      - file: ./res/values-de/strings.xml
-        params:
-          file_format: xml
-          locale_id: de
-      - file: ./res/values-es/strings.xml
-        params:
-            file_format: xml
-            locale_id: es
-      - file: ./res/values-fr/strings.xml
-        params:
-          file_format: xml
-          locale_id: fr
